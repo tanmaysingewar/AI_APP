@@ -39,8 +39,6 @@
   </style>
   <body>
     <h2 class="text-5xl font-bold text-center mt-20">AI Search</h2>
-
-    <!-- FILEPATH: /Users/tanmaysingewar/Projects/junk/AI_UI/index.html -->
     <form id="myForm" class="max-w-[600px] mx-auto mt-10 flex flex-row">
       <input
         type="text"
@@ -57,7 +55,16 @@
       />
     </form>
 
-    <p id="thinking" class="mt-4 whitespace-pre-line text-center"></p>
+    <!-- <p id="thinking" class="mt-4 whitespace-pre-line text-center"></p> -->
+    <!-- Thinking image -->
+    <div id="thinking" class="mt-4 text-center hidden">
+      <img
+        src="https://i.pinimg.com/originals/e8/01/3a/e8013a5e122c9f72d17d555b46e5b100.gif"
+        alt="Thinking"
+        class="w-1/4 mx-auto mt-10"
+      />
+      <p id="thinking_text" class="mt-4 whitespace-pre-line text-center">Our Model is thinking please wait 🤓</p>
+    </div>
     <div
       id="resContainer"
       class="max-w-[700px] mx-auto mt-10 h-2/3 overflow-auto overflow-x-hidden custom-scrollbar hidden"
@@ -97,7 +104,7 @@
             document.getElementById("thinking").innerHTML =
               "Search value can't be empty 😅";
           } else {
-            document.getElementById("thinking").innerHTML = "Thinking...";
+            document.getElementById("thinking").classList.replace("hidden", "show");
             generate(input);
           }
         });
@@ -115,7 +122,7 @@
         const text = response.text();
         console.log(text);
 
-        document.getElementById("thinking").innerHTML = "";
+        document.getElementById("thinking").classList.replace( "show","hidden");
         document
           .getElementById("resContainer")
           .classList.replace("hidden", "show");
