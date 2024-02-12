@@ -1,0 +1,99 @@
+What is Artificial Intelligence (AI)?
+Artificial intelligence (AI) is a set of technologies that enable computers to perform a variety of advanced functions, including the ability to see, understand and translate spoken and written language, analyze data, make recommendations, and more. 
+
+AI is the backbone of innovation in modern computing, unlocking value for individuals and businesses. For example, optical character recognition (OCR) uses AI to extract text and data from images and documents, turns unstructured content into business-ready structured data, and unlocks valuable insights.  
+
+Artificial intelligence defined
+Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze. 
+
+AI is a broad field that encompasses many different disciplines, including computer science, data analytics and statistics, hardware and software engineering, linguistics, neuroscience, and even philosophy and psychology. 
+
+On an operational level for business use, AI is a set of technologies that are based primarily on machine learning and deep learning, used for data analytics, predictions and forecasting, object categorization, natural language processing, recommendations, intelligent data retrieval, and more.
+
+Types of artificial intelligence
+Artificial intelligence can be organized in several ways, depending on stages of development or actions being performed. 
+
+For instance, four stages of AI development are commonly recognized.
+
+Reactive machines: Limited AI that only reacts to different kinds of stimuli based on preprogrammed rules. Does not use memory and thus cannot learn with new data. IBM’s Deep Blue that beat chess champion Garry Kasparov in 1997 was an example of a reactive machine.
+Limited memory: Most modern AI is considered to be limited memory. It can use memory to improve over time by being trained with new data, typically through an artificial neural network or other training model. Deep learning, a subset of machine learning, is considered limited memory artificial intelligence.
+Theory of mind: Theory of mind AI does not currently exist, but research is ongoing into its possibilities. It describes AI that can emulate the human mind and has decision-making capabilities equal to that of a human, including recognizing and remembering emotions and reacting in social situations as a human would. 
+Self aware: A step above theory of mind AI, self-aware AI describes a mythical machine that is aware of its own existence and has the intellectual and emotional capabilities of a human. Like theory of mind AI, self-aware AI does not currently exist.
+
+A more useful way of broadly categorizing types of artificial intelligence is by what the machine can do. All of what we currently call artificial intelligence is considered artificial “narrow” intelligence, in that it can perform only narrow sets of actions based on its programming and training. For instance, an AI algorithm that is used for object classification won’t be able to perform natural language processing. Google Search is a form of narrow AI, as is predictive analytics, or virtual assistants.
+
+Artificial general intelligence (AGI) would be the ability for a machine to “sense, think, and act” just like a human. AGI does not currently exist. The next level would be artificial superintelligence (ASI), in which the machine would be able to function in all ways superior to a human. 
+
+Artificial intelligence training models
+When businesses talk about AI, they often talk about “training data.” But what does that mean? Remember that limited-memory artificial intelligence is AI that improves over time by being trained with new data. Machine learning is a subset of artificial intelligence that uses algorithms to train data to obtain results.
+
+In broad strokes, three kinds of learnings models are often used in machine learning:
+
+Supervised learning is a machine learning model that maps a specific input to an output using labeled training data (structured data). In simple terms, to train the algorithm to recognize pictures of cats, feed it pictures labeled as cats.
+
+Unsupervised learning is a machine learning model that learns patterns based on unlabeled data (unstructured data). Unlike supervised learning, the end result is not known ahead of time. Rather, the algorithm learns from the data, categorizing it into groups based on attributes. For instance, unsupervised learning is good at pattern matching and descriptive modeling. 
+
+In addition to supervised and unsupervised learning, a mixed approach called semi-supervised learning is often employed, where only some of the data is labeled. In semi-supervised learning, an end result is known, but the algorithm must figure out how to organize and structure the data to achieve the desired results.
+
+Reinforcement learning is a machine learning model that can be broadly described as “learn by doing.” An “agent” learns to perform a defined task by trial and error (a feedback loop) until its performance is within a desirable range. The agent receives positive reinforcement when it performs the task well and negative reinforcement when it performs poorly. An example of reinforcement learning would be teaching a robotic hand to pick up a ball. 
+
+
+Common types of artificial neural networks
+A common type of training model in AI is an artificial neural network, a model loosely based on the human brain. 
+
+A neural network is a system of artificial neurons—sometimes called perceptrons—that are computational nodes used to classify and analyze data. The data is fed into the first layer of a neural network, with each perceptron making a decision, then passing that information onto multiple nodes in the next layer. Training models with more than three layers are referred to as “deep neural networks” or “deep learning.” Some modern neural networks have hundreds or thousands of layers. The output of the final perceptrons accomplish the task set to the neural network, such as classify an object or find patterns in data. 
+
+Some of the most common types of artificial neural networks you may encounter include:
+
+Feedforward neural networks (FF) are one of the oldest forms of neural networks, with data flowing one way through layers of artificial neurons until the output is achieved. In modern days, most feedforward neural networks are considered “deep feedforward” with several layers (and more than one “hidden” layer). Feedforward neural networks are typically paired with an error-correction algorithm called “backpropagation” that, in simple terms, starts with the result of the neural network and works back through to the beginning, finding errors to improve the accuracy of the neural network. Many simple but powerful neural networks are deep feedforward.
+
+Recurrent neural networks (RNN) differ from feedforward neural networks in that they typically use time series data or data that involves sequences. Unlike feedforward neural networks, which use weights in each node of the network, recurrent neural networks have “memory” of what happened in the previous layer as contingent to the output of the current layer. For instance, when performing natural language processing, RNNs can “keep in mind” other words used in a sentence. RNNs are often used for speech recognition, translation, and to caption images. 
+
+Long/short term memory (LSTM) are an advanced form of RNN that can use memory to “remember” what happened in previous layers. The difference between RNNs and LTSM is that LTSM can remember what happened several layers ago, through the use of “memory cells.” LSTM is often used in speech recognition and making predictions. 
+
+Convolutional neural networks (CNN) include some of the most common neural networks in modern artificial intelligence. Most often used in image recognition, CNNs use several distinct layers (a convolutional layer, then a pooling layer) that filter different parts of an image before putting it back together (in the fully connected layer). The earlier convolutional layers may look for simple features of an image such as colors and edges, before looking for more complex features in additional layers.
+
+Generative adversarial networks (GAN) involve two neural networks competing against each other in a game that ultimately improves the accuracy of the output. One network (the generator) creates examples that the other network (the discriminator) attempts to prove true or false. GANs have been used to create realistic images and even make art.
+
+Benefits of AI
+Automation
+AI can automate workflows and processes or work independently and autonomously from a human team. For example, AI can help automate aspects of cybersecurity by continuously monitoring and analyzing network traffic. Similarly, a smart factory may have dozens of different kinds of AI in use, such as robots using computer vision to navigate the factory floor or to inspect products for defects, create digital twins, or use real-time analytics to measure efficiency and output.
+
+Reduce human error
+AI can eliminate manual errors in data processing, analytics, assembly in manufacturing, and other tasks through automation and algorithms that follow the same processes every single time.
+
+Eliminate repetitive tasks
+AI can be used to perform repetitive tasks, freeing human capital to work on higher impact problems. AI can be used to automate processes, like verifying documents, transcribing phone calls, or answering simple customer questions like “what time do you close?” Robots are often used to perform “dull, dirty, or dangerous” tasks in the place of a human. 
+
+Fast and accurate
+AI can process more information more quickly than a human, finding patterns and discovering relationships in data that a human may miss.
+
+Infinite availability
+AI is not limited by time of day, the need for breaks, or other human encumbrances. When running in the cloud, AI and machine learning can be “always on,” continuously working on its assigned tasks. 
+
+Accelerated research and development
+The ability to analyze vast amounts of data quickly can lead to accelerated breakthroughs in research and development. For instance, AI has been used in predictive modeling of potential new pharmaceutical treatments, or to quantify the human genome. 
+
+Applications and use cases for artificial intelligence
+Speech recognition
+Automatically convert spoken speech into written text.
+
+Image recognition
+Identify and categorize various aspects of an image.
+
+Translation
+Translate written or spoken words from one language into another.
+
+Predictive modeling
+Mine data to forecast specific outcomes with high degrees of granularity.
+
+Data analytics
+Find patterns and relationships in data for business intelligence.
+
+Cybersecurity
+Autonomously scan networks for cyber attacks and threats.
+
+Related products and services
+Google offers a number of sophisticated artificial intelligence products, solutions, and applications on a trusted cloud platform that enables businesses to easily build and implement AI algorithms and models.
+
+By using products like Vertex AI, CCAI, DocAI, or AI APIs, organizations can make sense of all the data they’re producing, collecting, or otherwise analyzing, no matter what format it’s in, to make actionable business decisions.

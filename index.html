@@ -1,0 +1,133 @@
+<!-- FILEPATH: /Users/tanmaysingewar/Projects/junk/AI_UI/index.html -->
+<!--
+  This HTML file contains a basic structure for a web page that utilizes the Tailwind CSS library and imports the Google Generative AI module.
+  It includes a script that initializes the GoogleGenerativeAI class and generates content based on a prompt.
+  The generated content is then logged to the console.
+-->
+<html>
+  <head>
+    <!-- FILEPATH: /Users/tanmaysingewar/Projects/junk/AI_UI/index.html -->
+    <!-- This code includes meta tags for character encoding and viewport settings, as well as a script tag for the Tailwind CSS library. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Search</title>
+    <!-- Icon -->
+    <link
+      rel="icon"
+      href="https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    /* Custom Scrollbar */
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 4px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+  </style>
+  <body>
+    <h2 class="text-5xl font-bold text-center mt-20">AI Search</h2>
+
+    <!-- FILEPATH: /Users/tanmaysingewar/Projects/junk/AI_UI/index.html -->
+    <form id="myForm" class="max-w-[600px] mx-auto mt-10 flex flex-row">
+      <input
+        type="text"
+        id="search"
+        name="searchAI"
+        autocomplete="off"
+        placeholder="Search AI"
+        class="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-gray-500 focus:border-gray-500 w-[600px]"
+      />
+      <input
+        type="submit"
+        value="Search"
+        class="ml-2 px-4 py-2 text-white bg-black rounded-md hover:bg-green-500 cursor-pointer focus:outline-none focus:ring-green-500 focus:border-green-500"
+      />
+    </form>
+
+    <p id="thinking" class="mt-4 whitespace-pre-line text-center"></p>
+    <div
+      id="resContainer"
+      class="max-w-[700px] mx-auto mt-10 h-2/3 overflow-auto overflow-x-hidden custom-scrollbar hidden"
+    >
+      <p id="result" class="mt-4 whitespace-pre-line"></p>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <script type="module">
+      import { GoogleGenerativeAI } from "@google/generative-ai";
+      // Access your API key (see "Set up your API key" above)
+      const genAI = new GoogleGenerativeAI(
+        "AIzaSyAEUTul9M50xIJeH7rgKbhrujEEqhmS4IQ"
+      );
+
+      const addInfo = `
+      // Add Information here
+
+      `;
+
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var input = document.getElementById("search").value;
+          document
+            .getElementById("resContainer")
+            .classList.replace("show", "hidden");
+          document.getElementById("result").innerHTML = "";
+          if (input == "") {
+            document.getElementById("thinking").innerHTML =
+              "Search value can't be empty 😅";
+          } else {
+            document.getElementById("thinking").innerHTML = "Thinking...";
+            generate(input);
+          }
+        });
+
+      async function generate(inputPrompt) {
+        // For text-only input, use the gemini-pro model
+        console.log(inputPrompt, "Generate");
+        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+        const prompt = `
+          ${addInfo}
+          ${inputPrompt}
+        `;
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const text = response.text();
+        console.log(text);
+
+        document.getElementById("thinking").innerHTML = "";
+        document
+          .getElementById("resContainer")
+          .classList.replace("hidden", "show");
+
+        let resultPara = document.getElementById("result");
+        resultPara.innerHTML = text;
+        resultPara.innerHTML = resultPara.textContent.replace(
+          /^\*(.*)$/gm,
+          "<li>$1</li>"
+        );
+        resultPara.innerHTML = resultPara.textContent.replace(/\*\*(.*?)\*\*/g, "<b>$1</b>");
+      }
+    </script>
+  </body>
+</html>

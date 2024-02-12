@@ -1,0 +1,66 @@
+Google Developer Student Clubs
+Explore more than 2,100 college and university chapters across 108 countries. Meet and learn with other budding developers and build solutions for local businesses and communities with Google technology.
+Connect - Meet students interested in developer technologies at your college or university. All are welcome, including those with diverse backgrounds and different majors.
+Learn - Learn about a range of technical topics and gain new skills through hands-on workshops, events, talks, and project-building activities online and in-person.
+Grow -Apply new learnings to build great solutions for local problems. Advance your skills, career, and network. Give back to your community by helping others learn.
+
+Google Developer Student Clubs Leads
+GDSC leads are passionate about helping their peers learn technology and connect. Leads pursue various degrees within undergraduate and graduate programs, but have foundational knowledge about software development.
+
+Who should join Google Developer Student Clubs?
+College and university students are encouraged to join Google Developer Student Clubs.
+
+Can I join multiple chapters?
+You can participate in events organized by multiple chapters, however if you decide to dedicate yourself to become a GDSC Lead or Core Team Member, you will be officially assigned to one chapter.
+
+What does a GDSC lead do?
+In general, GDSC leaders are focused on the following areas:
+Start a club - Work with your university or college to start a student club. Select a core team and faculty advisor to support.
+Host workshops - Grow student knowledge on developer products and platforms through hands-on workshops and events.
+Build projects - Identify local partners to work with and lead project building activities.
+
+Who can lead a club?
+There are a few things we look for when selecting club leaders. If you fit this description, we welcome your application.
+
+Students who are at least 18 years old.
+A minimum of one year left until graduation.
+Enrollment in an undergraduate or graduate program at a college or university.
+Can commit to the program for one year.
+Passionate about creating impact in their community.
+Strong technical understanding of computer programming and/or software engineering.
+Experience with event planning or leading a team.
+Some connection to the local developer community.
+Available to host an event ideally once a month, and at least every 3 months.
+
+How do I apply to become a club leader?
+There are a few steps you need to take to apply to be an organizer.
+
+See if there’s a current Google Developer Student Club on your campus or near you. We encourage you to participate or even help organize an event to gain practical experience!
+Read the community guidelines.
+Submit your GDSC Lead application.
+We'll review your submission and get back to you via email as soon as possible.
+
+What are the benefits of becoming a GDSC lead?
+There are a number of benefits to leading a GDSC chapter, but here are a few that stand out:
+
+Professional growth - Access to community management training and technical knowledge to help you be a stronger leader, and receive invitations to select Google events.
+Network growth - Access to a global network of student leaders, professional community organizers, industry experts, and Googlers to gain mentorship and share knowledge.
+Community learning - Dedicated support to help educate and expand your community online and in-person.
+
+What is the time commitment?
+GDSC Leads should be available to run an event ideally once a month, and at least every three months to remain an active GDSC chapter. Additionally, running a GDSC is a one year commitment.
+
+What is the timeline for applying for the GDSC Lead position?
+We accept applications once per year, between April and August. Please follow this page for the new deadlines and the GDSC events platform to check current chapters.
+
+Get certified
+Google for Developers Certification lets you demonstrate your proficiency and skill. After you pass a certification exam, you can use your certification to promote yourself to the communities, projects, and employers that are important to you. All the certification exams are backed by rich training content offered as online curriculum, instructor-led training, or self-study materials.
+
+Google Play Store Listing Certificate
+Your app's store listing is the first opportunity you have to make a lasting impression with users. Built for those in digital mobile marketing, the Google Play Store List Certificate exam tests foundational knowledge of digital mobile marketing best practices for those building store listings in Google Play Console.
+
+Associate Android Developer
+The Associate Android Developer exam demonstrates the type of skill that an entry-level Android Developer should have as they begin their career. By passing this performance-based exam and earning the Associate Android Developer Certification, you prove that you're competent and skilled in tasks that a developer typically performs. The exam is now also offered to be taken in Kotlin, as well as Java!
+
+TensorFlow Developer Certificate
+The TensorFlow Developer Certificate exam tests a developer's foundational knowledge of integrating machine learning into tools and applications. The certificate program requires an understanding of building TensorFlow models using Computer Vision, Convolutional Neural Networks, Natural Language Processing, and real-world image data and strategies.
